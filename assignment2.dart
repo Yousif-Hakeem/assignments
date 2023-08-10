@@ -23,9 +23,11 @@
 // }
 
 //                       3.Third question code:::
+
 // import 'dart:io';
+
 // void main() {
-//   List? info = [];
+//   Map info = {};
 //   String? name;
 //   String? gender;
 //   String? city;
@@ -35,23 +37,27 @@
 //     if (name == 'exit') {
 //       break;
 //     } else {
-//       info.add(name);
+//       info['name'] = name;
 //     }
 //     print('enter their gender:');
 //     gender = stdin.readLineSync()!;
 //     if (gender == 'exit') {
 //       break;
 //     } else {
-//       info.add(gender);
+//       info['gender'] = gender;
 //     }
 //     print('enter their city:');
 //     city = stdin.readLineSync()!;
 //     if (city == 'exit') {
 //       break;
 //     } else {
-//       info.add(city);
+//       info['city'] = city;
 //     }
-//     print(info);
+//     print('\nMap :$info\n');
+//     print('formal information:-');
+//     info.forEach((key, value) {
+//       print('$key: $value');
+//     });
 //   }
 // }
 
