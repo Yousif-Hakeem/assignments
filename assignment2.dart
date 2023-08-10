@@ -28,38 +28,38 @@
 
 // void main() {
 //   Map info = {};
-//   String? name;
-//   String? gender;
-//   String? city;
+//   String name;
+//   String gender;
+//   String city;
 //   while (true) {
-//     print('enter their name:');
-//     name = stdin.readLineSync();
+//     print('enter their name:or type exit to leave!');
+//     name = stdin.readLineSync()!;
 //     if (name == 'exit') {
 //       break;
-//     } else {
-//       info['name'] = name;
 //     }
-//     print('enter their gender:');
+
+//     Map friends = {};
+//     info[name] = friends;
+//     print('enter their gender:or type exit to leave!');
 //     gender = stdin.readLineSync()!;
 //     if (gender == 'exit') {
 //       break;
-//     } else {
-//       info['gender'] = gender;
 //     }
-//     print('enter their city:');
+//     friends['gender'] = gender;
+//     print('enter their city:or type exit to leave!');
 //     city = stdin.readLineSync()!;
 //     if (city == 'exit') {
 //       break;
-//     } else {
-//       info['city'] = city;
 //     }
-//     print('\nMap :$info\n');
-//     print('formal information:-');
-//     info.forEach((key, value) {
-//       print('$key: $value');
-//     });
+//     friends['city'] = city;
 //   }
+//   print('\nmap :$info\n');
+//   print('formal view:-');
+//   info.forEach((name, friends) {
+//     print('$name: $friends');
+//   });
 // }
+
 
 // 4.////////////////////////////////////////////////////////////
 // question 4 in an infinite loop because the increment never happens and x is never printed.
