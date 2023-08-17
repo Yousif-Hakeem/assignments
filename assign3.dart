@@ -44,15 +44,23 @@
 
 ////////////     3.printer function
 
-// void Printer(String name, int age, String city) {
-//   print('the name is $name');
-//   print('age is $age');
-//   print('city is $city');
+// void Printer(void Function(dynamic) Printing) {
+//   String? name = 'yousif';
+//   int? age = 24;
+//   String? city = 'khartoum';
+//   Printing('the name is $name');
+//   Printing('age is $age');
+//   Printing('city is $city');
 // }
 
 // void main() {
-//   Printer('yousif', 24, 'khatroum');
+//   void Printing(dynamic info) {
+//     print(info);
+//   }
+
+//   Printer(Printing);
 // }
+
 
 //////////////////////////////////////////////////////////////////////////////////////////
 
