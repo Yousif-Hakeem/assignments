@@ -193,8 +193,8 @@
 //   print('customer email: ${p.email}');
 //   print(p.resetPassword());
 //   print('------------------------------------------');
-//   print('seller name: ${p.name}');
-//   print('seller email: ${p.email}');
+//   print('seller name: ${k.name}');
+//   print('seller email: ${k.email}');
 //   print(k.resetPassword());
 // }
 
