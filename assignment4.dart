@@ -1,3 +1,5 @@
+
+//////////                 1. Shapes
 // import 'dart:math';
 
 // abstract class Shape {
@@ -84,7 +86,11 @@
 // }
 
 
+
 ////////////////////////////////////////////////////////////////////////////////
+
+/////////////         2. Employee hour price
+
 // abstract class Employee {
 //   String? name;
 //   double? hourPrice;
@@ -125,7 +131,9 @@
 //   }
 // }
 
-/////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+
+////////////////         3. reset Password 
 
 // import 'dart:math';
 
@@ -190,21 +198,23 @@
 //   print(k.resetPassword());
 // }
 
-//////////////////////////////////////////////////////////////////////////////////
-///
-///
 
-// method overriding is when a child class uses parent class methods overwriting
-//its own implementation into these methods 
-/////////Simple Example::::::::::::
-///
+////////////////////////////////////////////////////////////////////////////////
+
+///////////////    4. Overriding with an example
+/*
+    method overriding is when a child class uses parent class methods overwriting
+its own implementation into these methods
+Simple Example::::::::::::
+*/
+
 // abstract class Game {
 //   String? displayExample();
 // }
 
 // class Moba extends Game {
-  // as i mentioned the child, In this case Class moba will override 
-  //using its own implementation:-
+// as i mentioned the child, In this case Class moba will override
+//using its own implementation:-
 //   @override
 //   String? displayExample() {
 //     return 'League of Legends';
@@ -212,8 +222,8 @@
 // }
 
 // class Fighter extends Game {
-   // same thing for the other child class Fighter will override the main class method 
-  //using its own implementation:-
+// same thing for the other child class Fighter will override the main class method
+//using its own implementation:-
 //   @override
 //   String? displayExample() {
 //     return 'Mortal Kombat';
@@ -227,6 +237,14 @@
 //   print(m.displayExample());
 //   print(f.displayExample());
 // }
+
+
 ////////////////////////////////////////////////////////////////////////////////
-///A mixin is a class that provides a set of methods and properties 
-///that can be easily added to other classes and can be used by them.
+
+//////////             5.what is a mixin
+/*
+
+    A mixin is a class that provides a set of methods and properties
+that can be easily added to other classes and can be used by them.
+
+*/
